@@ -1,0 +1,24 @@
+# ===== Artefacts de compilation Java =====
+*.class
+
+# ===== Artefacts de compilation C =====
+*.exe
+*.o
+*.obj
+
+# ===== Données ActiveMQ (générées au lancement du broker) =====
+data/
+activemq-data/
+
+# ===== IDE / éditeurs =====
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# ===== Système =====
+Thumbs.db
+Desktop.ini
+.DS_Store
